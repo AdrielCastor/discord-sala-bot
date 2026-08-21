@@ -1,0 +1,20 @@
+{
+  "name": "salabot",
+  "version": "2.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=300 --expose-gc src/index.js",
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "googleapis": "^144.0.0",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.5",
+    "telegram": "^2.26.21",
+    "tesseract.js": "^5.1.1"
+  }
+}
